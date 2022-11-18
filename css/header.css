@@ -52,3 +52,10 @@ h1{
     color: black;
     font-size: 150px;
 }
+
+@media (max-width: 800px;){
+    div.header{
+    padding-left: 0;
+    padding-right: 0;
+    }
+}
