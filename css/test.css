@@ -1,0 +1,19 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    font-size: 30px;
+    color: #125BDC;
+}
+h2{
+    font-size: 100px;
+    color: rebeccapurple;
+}
+
+.big{
+    font-size: 10px;
+}
+span{
+    color: violet;
+}
+
