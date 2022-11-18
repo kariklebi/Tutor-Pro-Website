@@ -5,12 +5,20 @@
     <style>
         body{
             background-color: white;
+            
+            
         }
         div{
             display: flex;
             justify-content: space-between;
             min-height: 76px;
+            flex-direction: row;
+            align-items: center;
+            transition: padding 500ms;
+            transition: box-shadow 500ms;
+
         }
+      
         a{
             color: black;
             text-decoration: none;
@@ -21,20 +29,43 @@
         a:hover{
             color: #125BDC;
         }
+        h1{
+            color: black;
+            font-size: 200px;
+        }
+        header{
+            background-color: white;
+            position:absolute;
+            top: 0; 
+            left: 0;
+            flex-direction:row;
+            align-items: center;
+            transition: padding 500ms;
+            transition: box-shadow 500ms;
+        }
 
     </style>
         
 
 </head>
 <body>
-    <div>
+    <header>
+        <div class="Header">
         <a href="/Tutor-Pro/index.html"><img src="img/Logo296x76.png" ></a>
-        <div>
+        <div class="menü">
             <a href="/Tutor-Pro/Unsere-Lehrer.html"> Unsere Lehrer</a>
             <a href="/Tutor-Pro/Preise.html"> Preise</a>
             <a href="/Tutor-Pro/Lehrer-werden.html"> Lehrer werden</a>
             <a href="/Tutor-Pro/Haeufige-Fragen.html"> Häufige Fragen</a>
             <a href=""> Account</a>
         </div>
-    </div>
+     </div>
+    </header>
+    <main>
+    <h1>Header 1</h1>
+    <h1>Header 2</h1>
+    <h1>Header 3</h1>
+    <h1>Header 4</h1>
+    <h1>Header 5</h1>
+    </main>
 </body>
