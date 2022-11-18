@@ -1,6 +1,9 @@
 body{
-    background-color: white;
-    
+    background-color: #BDBDBD;
+    margin: 0;
+    padding: 0;
+    max-width: auto;
+    font-family: sans-serif;
     
 }
 div.header{
@@ -9,31 +12,37 @@ div.header{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    transition: padding 500ms;
-    transition: box-shadow 500ms;
-    width: 100%;
-    position:relative;
+    width: auto; 
+    position: sticky;
+    left: 0;
     top: 0;
-    left:0;
-
-    
+    padding-left: 25rem;
+    padding-right: 25rem;
+  
 
 }
-
 div.menü{
     background-color: white;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 90%;
+    padding-left: 7rem;
+    padding-right: 1rem;
+    width: 80%;
 
 }
 a{
     color: black;
     text-decoration: none;
-    margin: 40px;
+    max-height: 85px;
     font-weight: 700;
+}
+
+a.img{
+    padding-top: 5px;
+    min-height: 79px;
+    padding-bottom: 5px;
 }
 
 a:hover{
@@ -41,5 +50,5 @@ a:hover{
 }
 h1{
     color: black;
-    font-size: 200px;
+    font-size: 150px;
 }
