@@ -1,14 +1,11 @@
-<!--Header element für alle Seiten-->
-!
 <head>
     <link rel="icon" href="img/NurHut.png">
     <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
-    <div>
+    <header>
         
-    </div>
-     <div class="Header">
+         <div class="Header">
          <a class="img" href="/Tutor-Pro/index.html"><img src="img/Logo296x76.png" ></a>
         <div class="menü">
             <a href="/Tutor-Pro/Unsere-Lehrer.html"> Unsere Lehrer</a>
@@ -18,17 +15,4 @@
             <a href=""> Account</a>
             </div>
         </div>
-
-    <header>
-        <?php
-        include './header/header.php'
-        ?>
-    </header>
-    <main>
-    <h1>Header 1</h1>
-    <h1>Header 2</h1>
-    <h1>Header 3</h1>
-    <h1>Header 4</h1>
-    <h1>Header 5</h1>
-    </main>
-</body>
+</header>
